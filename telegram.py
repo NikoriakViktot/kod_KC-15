@@ -18,6 +18,7 @@ class Telegram():
 
 
     def date_time_n(self):
+        self
 
 
 
