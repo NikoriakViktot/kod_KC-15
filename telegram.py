@@ -18,7 +18,16 @@ class Telegram():
 
 
     def date_time_n(self):
-        self
+        self.date = str(self.YY)
+        self.time = str(self.GG)
+        self.n_rozdil = str(self.n)
+        date_time_n = self.date + self.time + self.n_rozdil
+        return  date_time_n
+
+
+class Rozdil_1(Telegram):
+    def __init__(self, grupa ,HHHH):
+        self.
 
 
 
@@ -29,10 +38,12 @@ class Telegram():
 
 
 
-i = Telegram(42,130,30,8,1)
+
+i = Telegram(42,130,30,'08',1)
 
 # i(42,130,30,8,1)
 print(i.index_posta())
+print(i.date_time_n())
 
 
 
